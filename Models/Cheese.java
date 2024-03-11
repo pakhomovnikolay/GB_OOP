@@ -1,5 +1,3 @@
-package Models;
-
 public class Cheese extends Product {
 
     //#region Поля класса
