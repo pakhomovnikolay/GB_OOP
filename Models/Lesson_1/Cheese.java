@@ -1,3 +1,4 @@
+package Lesson_1;
 public class Cheese extends Product {
 
     //#region Поля класса

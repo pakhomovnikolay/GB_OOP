@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+import Lesson_2.Cat;
+import Lesson_2.Plate;
+
 public class Lesson_2 {
 
     public static void main(String[] args) {

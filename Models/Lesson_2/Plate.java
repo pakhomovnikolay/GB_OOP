@@ -1,3 +1,4 @@
+package Lesson_2;
 public class Plate {
     private int food;
 
