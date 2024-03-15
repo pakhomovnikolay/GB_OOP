@@ -2,7 +2,6 @@ import java.util.Arrays;
 
 import Lesson_3.Employee;
 import Lesson_3.EmployeeFabric;
-import Lesson_3.Worker;
 
 public class Lesson_3 {
 
