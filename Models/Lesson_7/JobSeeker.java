@@ -3,6 +3,8 @@ package Lesson_7;
 import java.util.ArrayList;
 import java.util.Collection;
 
+import javax.swing.text.Position;
+
 import Lesson_7.Interfaces.Observer;
 
 public class JobSeeker implements Observer {
@@ -109,7 +111,7 @@ public class JobSeeker implements Observer {
 
     @Override
     public void receiveVacancy(JobVacancy vacancy) {
-        if (vacancy.getMinSalary() > salary || vacancy.getMaxSalary() > salary) {
+        if ((vacancy.getMinSalary() > salary || vacancy.getMaxSalary() > salary) && vacancy.getName() == position) {
             vacancys.add(vacancy);
 
             System.out.printf("Соискатель %s. Желаемая ЗП: %s. Ваше предложение меня заинтересовало! (компания: %s; заработная плата от %s до %s)\n",

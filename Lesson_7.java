@@ -44,7 +44,7 @@ public class Lesson_7 {
 
         JobSeeker student1 = new JobSeeker("Студент #1", "Инженер-программист", 90000, 3);
         JobSeeker master1 = new JobSeeker("Мастер #1", "Ведущий Инженер-программист", 120000, 5);
-        JobSeeker master2 = new JobSeeker("Мастер #2", "Главный специалист АСУТП", 150000, 7);
+        JobSeeker master2 = new JobSeeker("Мастер #2", "Главный специалист", 150000, 7);
 
         publisher.registerObserver(student1);
         publisher.registerObserver(master1);
